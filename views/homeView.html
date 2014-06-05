@@ -1,0 +1,22 @@
+﻿<div>
+    <h1>Home View</h1>
+
+    <p>
+        A simple value from the controller: {{simpleValue}}
+    </p>
+
+    <ul>
+        <li data-ng-repeat="item in simpleServiceData">{{item.name}}</li>
+    </ul>
+
+    <p>
+        <input type="text" data-ng-model="simpleModel.greeting" placeholder="Enter your name" />
+        <label>{{returnedGreeting}}</label>
+    </p>
+
+    <p>
+        <input id="weatherStation" type="text" placeholder="city to search" ng-model="weather.city" />
+        <button id="getWeather" data-ng-click="getWeather()">Get Weather</button> {{weatherStation}} {{weatherSummary}} {{weatherTemp}} {{weatherHumidity}} {{weatherWindSpeed}}
+    </p>
+
+</div>

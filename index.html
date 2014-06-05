@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SPAngularJS AMD Template</title>
+
+    <!-- CSS references -->
+    <link href="bower_components/toastr/toastr.min.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <!-- Main app bootstrap -->
+    <script data-main="app/main.js" src="bower_components/requirejs/require.js"></script>
+
+</head>
+<!-- ng-cloak stops the view from showing partial elements until fully loaded -->
+<body data-ng-cloak="">
+
+    <!-- Main View Div -->
+    <div data-ng-view="">
+    </div>
+
+</body>
+</html>

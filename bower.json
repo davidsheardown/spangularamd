@@ -1,0 +1,26 @@
+{
+  "name": "SPAngularAMD",
+  "version": "0.0.1",
+  "authors": [
+    "Dav.id <davidsheardown@hotmail.com>"
+  ],
+  "description": "SPA with Angular and Require AMD shell project",
+  "main": "bower.json",
+  "keywords": [
+    "spa",
+    "angularjs",
+    "requirejs",
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular-route": "~1.2.16",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1",
+    "requirejs": "~2.1.14",
+    "toastr": "~2.0.3",
+    "angular-cookies": "~1.2.16",
+    "angular": "~1.2.16"
+  }
+}
